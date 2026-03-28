@@ -1,0 +1,24 @@
+Summary: Trading Behavior vs Market Sentiment
+
+Methodology:
+The analysis combines historical trading data with the Fear & Greed Index to study how market sentiment impacts trader performance and behavior.
+
+First, both datasets were cleaned and preprocessed. Timestamps were converted into a common date format so that the data could be aligned at a daily level. The datasets were then merged using the date column.
+
+Next, key metrics were created, including average PnL (profitability), win rate (percentage of profitable trades), trade frequency (number of trades), average trade size, and leverage as a risk indicator.
+
+Traders were also divided into two groups: frequent traders and infrequent traders, based on their trading activity.
+
+Key Insights:
+Trader performance varies depending on market sentiment. Profitability and win rates are different during Fear and Greed conditions.
+
+Trader behavior also changes with sentiment. The number of trades and the size of positions increase or decrease based on market conditions, showing that traders adjust their strategies.
+
+Risk patterns differ across traders. Frequent traders tend to take different levels of risk compared to infrequent traders, especially during volatile market situations.
+
+Strategy Recommendations:
+During Fear markets, traders should reduce leverage to minimize risk and avoid excessive trading due to uncertainty.
+
+During Greed markets, traders should control position sizes to avoid overexposure and maintain proper risk management even when the market looks favorable.
+
+Overall, aligning trading strategies with market sentiment can help improve decision-making and reduce risk.
